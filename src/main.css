@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+}
+body {
+    color: white;
+}
+.navbar-brand {
+    display: inline-block;
+}
+#image img {
+    width: 300px;
+    height: auto;
+    border-radius: 50px;
+}
+#info {
+    padding-top: 20px;
+}
+#info h1 {
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: monospace;
+}
+#info p {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+code {
+    color: white;;
+    font-weight: bolder;
+}
+h1 {
+    font-size: 50px;
+}
+#title-about {
+    text-decoration: underline;
+    color: white;
+    font-family: monospace;
+}

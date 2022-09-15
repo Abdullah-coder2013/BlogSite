@@ -1,0 +1,14 @@
+{
+  "name": "blogsite",
+  "version": "1.0.0",
+  "description": "My Blog Site",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build:css": "npx tailwind build -i src/main.css -o dist/tailwind.css --watch"
+  },
+  "author": "abdullah",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1"
+  }
+}
