@@ -41,3 +41,12 @@ h1 {
     color: white;
     font-family: monospace;
 }
+#info {
+    color: white;
+}
+#navbar-nav {
+    color: white;
+}
+#hello {
+    display: inline;
+}
