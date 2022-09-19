@@ -1500,6 +1500,17 @@ a:hover {
   color: rgb(123, 119, 119);
 }
 
+.jscalc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.jscalc code {
+  color: black;
+}
+
 .hover\:bg-sky-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
