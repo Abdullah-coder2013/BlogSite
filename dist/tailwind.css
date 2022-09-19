@@ -1492,6 +1492,14 @@ h1 {
   display: inline;
 }
 
+a {
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: rgb(123, 119, 119);
+}
+
 .hover\:bg-sky-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
